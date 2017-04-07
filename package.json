@@ -1,0 +1,35 @@
+{
+  "name": "babel-tung",
+  "version": "0.1.0",
+  "description": "Babeljs plugin for tung templates",
+  "main": "index",
+  "scripts": {},
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-cli": "^6.3.13",
+    "babel-plugin-jsx-pragmatic": "~1.0.2",
+    "babel-plugin-syntax-jsx": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reon90/babel-tung.git"
+  },
+  "keywords": [
+    "babel",
+    "jsx",
+    "virtual dom",
+    "vdom",
+    "view",
+    "component",
+    "framework"
+  ],
+  "author": "Artem Kunets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reon90/babel-tung/issues"
+  },
+  "homepage": "https://github.com/Reon90/babel-tung",
+  "dependencies": {}
+}
+
