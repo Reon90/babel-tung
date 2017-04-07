@@ -110,7 +110,9 @@ function parser(opts) {
                 return t.thisExpression();
             } else if (/^[A-Z]/.test(node.name)) {
 
-                components.push(node.name);
+                if (!components.some(c => c === node.name)) {
+                    components.push(node.name);
+                }
 
                 // node is assumed to be a JS identifier (var, function, class, etc) if the first letter is UPPERCASE
                 node.type = "Identifier";
