@@ -1,6 +1,6 @@
 {
   "name": "babel-tung",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Babeljs plugin for tung templates",
   "main": "index",
   "scripts": {},
@@ -28,7 +28,6 @@
   "bugs": {
     "url": "https://github.com/Reon90/babel-tung/issues"
   },
-  "homepage": "https://github.com/Reon90/babel-tung",
-  "dependencies": {}
+  "homepage": "https://github.com/Reon90/babel-tung"
 }
 
