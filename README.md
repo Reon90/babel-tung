@@ -9,9 +9,9 @@ npm install babel-tung
 
 ## Usage
 
-### Webpack
+### Webpack 2
 
-```
+```js
 module.exports = {
   entry: './app/app.js',
   output: {
@@ -32,7 +32,7 @@ module.exports = {
 
 ### Gulp
 
-```
+```js
 const gulp = require('gulp');
 const babel = require("babel-core");
 const transform = require('gulp-transform');
