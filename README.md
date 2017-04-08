@@ -2,6 +2,11 @@
 
 Babel plugin for [tung](https://github.com/Reon90/tung).
 
+## Install
+```
+npm install babel-tung
+```
+
 ## Usage
 
 ### Webpack
